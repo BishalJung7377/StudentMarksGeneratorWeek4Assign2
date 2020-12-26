@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentMarksActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/stdId"
+        android:hint="Enter Student ID"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/stdName"
+        android:hint="Enter Student Name"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/iotMarks"
+        android:hint="Enter IOT Marks"
+        android:gravity="center"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/ApiMarks"
+        android:hint="Enter API Marks"
+        android:gravity="center"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/AndroMarks"
+        android:hint="Enter Android Marks"
+        android:gravity="center"
+        android:inputType="number"
+        />
+
+    <ListView
+        android:id="@+id/stdListView"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:id="@+id/btnProc"
+        android:gravity="center"
+        android:background="#42EADDFF"
+        android:textColor="@android:color/black"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_marginLeft="135dp"
+        />
+
+
+</LinearLayout>

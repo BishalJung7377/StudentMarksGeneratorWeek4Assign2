@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultPageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#C8707E"
+        android:id="@+id/stdName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/frstRank"
+        android:editable="false"
+        android:gravity="center"
+        />
+<!--        android:hint="First Rank Holder Name"-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/scndRank"
+        android:editable="false"
+        android:gravity="center"
+        />
+<!--        android:hint="Second Rank Holder Name"-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/thrdRank"
+        android:editable="false"
+        android:gravity="center"
+        />
+<!--        android:hint="Third Rank Holder Name"-->
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Highest Marks In Android"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#C8707E"
+        android:id="@+id/textHigh"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/frstHigh"
+        android:editable="false"
+        android:gravity="center"
+        />
+<!--        android:hint="Student Name with Highest Marks"-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/scndHigh"
+        android:editable="false"
+        android:gravity="center"
+        />
+<!--        android:hint="Student Name with Second Highest Marks"-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/thrdHigh"
+        android:editable="false"
+        android:gravity="center"
+        />
+<!--        android:hint="Student Name with Third Highest Marks"-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBck"
+        android:text="Back"
+        android:background="#FF0000"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="144dp"
+        />
+
+</LinearLayout>
